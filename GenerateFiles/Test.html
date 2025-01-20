@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voyageur de Commerce</title>
+<style>
+body  {
+background-color: #fdf6e3;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+}
+header, footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 1rem 0;
+}
+header h1, footer h1 {
+margin: 0;
+font-size: 1.5rem;
+}
+.container {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color:  #fff;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+border-bottom: 2px solid #ffa726;
+padding-bottom: 5px;
+margin-top: 30px;
+color: #d84315;
+}
+p {
+line-height: 1.6;
+}
+.highlight {
+background-color: #fff9c4;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.distance {
+color: red;
+font-weight: bold;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+ul li {
+background: #e3f2fd;
+margin: 5px 0;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Voyageur de Commerce</h1>
+</header>
+<div class="container">
+<h2>Carte</h2>
+<img src="Test_imageCarte.png" alt="Carte" style="width: 100%; height: auto;" />
+</div>
+<div class="container">
+<h2>Solution</h2>
+<div class="highlight">
+<p>➞ J'aime bien la ville de <i>RENNES (35)</i></p>
+<p>➞ Aller à <i>NANTES (44)</i></p>
+<p>➞ Ramper jusqu'à <i>BORDEAUX (33)</i></p>
+<p>➞ Je pense qu'il faut aller à <i>TOULOUSE (31)</i></p>
+<p>➞ Une bonne note nous attend à <i>MONTPELLIER (34)</i></p>
+<p>➞ J'aime bien la ville de <i>MARSEILLE (13)</i></p>
+<p>➞ Se diriger vers <i>LYON (69)</i></p>
+<p>➞ Aller à <i>STRASBOURG (67)</i></p>
+<p>➞ Faire de l'auto-stop jusqu'à <i>PARIS (75)</i></p>
+<p>➞ Tourner vers <i>LILLE (59)</i></p>
+</div>
+<p>Cette solution nécessite de parcourir <span class="distance">2612.79</span> Km.</p>
+</div>
+<h2>Liste des personnes</h2>
+<h3>Chercheurs:</h3>
+<ul><li>=> Sophie Morel: 41 ans, Ville [NANTES (44)], Bureau(305), Discipline(s){MATHEMATIQUES, INFORMATIQUE}, Etudiant(s) : Lucas Moreau, Élise Caron</li>
+<li>=> Nicolas Laurent: 38 ans, Ville [BORDEAUX (33)], Bureau(110), Discipline(s){MATHEMATIQUES, INFORMATIQUE}</li>
+<li>=> Camille Robin: 44 ans, Ville [STRASBOURG (67)], Bureau(215), Discipline(s){MATHEMATIQUES, INFORMATIQUE}, Etudiant(s) : Linh Nguyen, Thomas Lambert, Camille Martin</li>
+<li>=> Éric Chevalier: 40 ans, Ville [LILLE (59)], Bureau(402), Discipline(s){MATHEMATIQUES, GESTION}, Etudiant(s) : Hugo Petit, Alice Garnier</li>
+</ul>
+<h3>MCFs:</h3>
+<ul><li>=> Claire Bernard: 42 ans, Ville [LYON (69)], Bureau (204), Discipline(s) {MATHEMATIQUES, GESTION}</li>
+<li>=> Antoine Dubois: 37 ans, Ville [PARIS (75)], Bureau (312), Discipline(s) {GESTION, INFORMATIQUE}, Etudiant : Adrien Lefèvre</li>
+<li>=> Isabelle Faure: 45 ans, Ville [TOULOUSE (31)], Bureau (108), Discipline(s) {DROIT}, Etudiant : Julien Fabre</li>
+<li>=> Julien Roche: 39 ans, Ville [MARSEILLE (13)], Bureau (221), Discipline(s) {GESTION, SCIENCESSOCIALES}, Etudiant : Marie Dupont</li>
+</ul>
+<h3>Étudiants:</h3>
+<ul><li>=> Marie Dupont: 26 ans, Ville [PARIS (75)], Sujet de Thèse {Optimisation des réseaux neuronaux pour la reconnaissance faciale}, Année de Thèse (2), Discipline :INFORMATIQUE, Encadrant : Julien Roche</li>
+<li>=> Thomas Lambert: 24 ans, Ville [LYON (69)], Sujet de Thèse {Modélisation statistique des écosystèmes marins}, Année de Thèse (1), Discipline :MATHEMATIQUES, Encadrant : Camille Robin</li>
+<li>=> Linh Nguyen: 27 ans, Ville [MARSEILLE (13)], Sujet de Thèse {Développement de capteurs intelligents pour l'agriculture durable}, Année de Thèse (3), Discipline :INFORMATIQUE, Encadrant : Camille Robin</li>
+<li>=> Lucas Moreau: 23 ans, Ville [LILLE (59)], Sujet de Thèse {Analyse des données massives dans les transports urbains}, Année de Thèse (1), Discipline :GESTION, Encadrant : Sophie Morel</li>
+<li>=> Camille Martin: 25 ans, Ville [BORDEAUX (33)], Sujet de Thèse {Étude des matériaux avancés pour les énergies renouvelables}, Année de Thèse (2), Discipline :INFORMATIQUE, Encadrant : Camille Robin</li>
+<li>=> Adrien Lefèvre: 28 ans, Ville [STRASBOURG (67)], Sujet de Thèse {Cryptographie post-quantique et applications en sécurité informatique}, Année de Thèse (3), Discipline :INFORMATIQUE, Encadrant : Antoine Dubois</li>
+<li>=> Élise Caron: 24 ans, Ville [TOULOUSE (31)], Sujet de Thèse {Impact des technologies numériques sur l'éducation}, Année de Thèse (1), Discipline :SCIENCESSOCIALES, Encadrant : Sophie Morel</li>
+<li>=> Hugo Petit: 25 ans, Ville [NANTES (44)], Sujet de Thèse {Détection précoce des maladies grâce à l'intelligence artificielle}, Année de Thèse (2), Discipline :INFORMATIQUE, Encadrant : Éric Chevalier</li>
+<li>=> Alice Garnier: 27 ans, Ville [RENNES (35)], Sujet de Thèse {Adaptation des algorithmes d'optimisation pour les systèmes distribués}, Année de Thèse (3), Discipline :INFORMATIQUE, Encadrant : Éric Chevalier</li>
+<li>=> Julien Fabre: 24 ans, Ville [MONTPELLIER (34)], Sujet de Thèse {Applications des drones dans la gestion des crises environnementales}, Année de Thèse (1), Discipline :DROIT, Encadrant : Isabelle Faure</li>
+</ul>
+<footer>
+<h1>Merci de votre visite!</h1>
+</footer>
+</body>
+</html>
