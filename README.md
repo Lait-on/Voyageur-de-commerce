@@ -1,6 +1,6 @@
-# LeonLouisSujet2024java
+# Voyage_Commerce
 
-LeonLouisSujet2024javan est une application Java permettant de résoudre le problème du voyageur de commerce sur des cycles hamiltoniens dans un écosystème fictif composé de chercheurs, de MCF (Maîtres de Conférences) et d'étudiants.
+Voyageur_commerce est une application Java permettant de résoudre le problème du voyageur de commerce sur des cycles hamiltoniens dans un écosystème fictif composé de chercheurs, de MCF (Maîtres de Conférences) et d'étudiants.
 
 ## Description
 Cette application propose une solution au problème du voyageur de commerce en modélisant un écosystème fictif intégrant des entités interconnectées (chercheurs, MCF et étudiants). L'application permet de manipuler ces entités grâce à une interface graphique intuitive, tout en exploitant une base de données PostgreSQL contenant les villes de France. Elle sert à la fois à résoudre le problème de manière efficace et à afficher les résultats de façon claire et interactive.
